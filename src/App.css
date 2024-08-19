@@ -1,0 +1,138 @@
+.formsection {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  height: 30vh;
+  align-items: center;
+  flex-direction: column;
+}
+
+.formsection h1 {
+  color: white;
+}
+
+.inputssection {
+  width: 500px;
+}
+
+.buttonsection {
+  background-color: green;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+.nestedarray {
+  border: 2px solid black;
+}
+
+/* Employeedataform.css */
+
+.empForm {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.section {
+  margin-bottom: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+.buttonSpace button {
+  margin-right: 10px;
+}
+
+.box {
+  width: 200px;
+  height: 100px;
+  background-color: lightgrey;
+  text-align: center;
+  line-height: 100px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.box.hovered {
+  background-color: lightblue;
+}
+
+.custom-box {
+  padding: 10px;
+  background-color: lightgray;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.custom-box:hover {
+  background-color: lightblue;
+}
+
+.borderbox {
+  border: 5px solid black;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
+
+/* CSS File */
+body, html {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  nalign-items: center;
+  background-color:rgb(74, 33, 5); 
+  color:#FF7800;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+  text-align: center;
+}
+
+.screenchange {
+  background-color: #ffffff; /* White background color for the section */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Box shadow for a subtle effect */
+}
+
+.screenchange h3 {
+  color: #3498db; /* Blue color for h3 tags */
+}
